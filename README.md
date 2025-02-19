@@ -1,6 +1,3 @@
-[![Build status](https://github.com/Shopify/liquid/actions/workflows/liquid.yml/badge.svg)](https://github.com/Shopify/liquid/actions/workflows/liquid.yml)
-[![Inline docs](http://inch-ci.org/github/Shopify/liquid.svg?branch=master)](http://inch-ci.org/github/Shopify/liquid)
-
 # Liquid template engine
 
 * [Contributing guidelines](CONTRIBUTING.md)
