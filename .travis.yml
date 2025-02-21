@@ -1,8 +1,17 @@
+rvm:
+  - 1.9.3
+  - 2.0.0
+  - 2.1
+  - 2.1.1
+  - jruby-19mode
+  - jruby-head
+  - rbx-19mode
 matrix:
   allow_failures:
     - rvm: rbx-19mode
     - rvm: jruby-head
-script: "gem build liquid.gemspec && gem install liquid-3.0.0.gem"
-script: "rake test"
-notifications: true
+script:
+  - gem build liquid.gemspec && gem install liquid-3.0.0.gem
+  - rake test
+notifications:
   disable: true
