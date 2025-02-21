@@ -12,5 +12,5 @@ matrix:
     - rvm: jruby-head
 script: "gem build liquid.gemspec && gem install liquid-3.0.0.gem"
 script: "rake test"
-notifications:
+notifications: true
   disable: true
